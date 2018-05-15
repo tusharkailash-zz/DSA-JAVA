@@ -33,7 +33,7 @@ public class Reverse {
 			System.out.print(head.val + "->");
 			head = head.next;
 		}
-		System.out.println();
+		System.out.println("null");
 	}
 
 	public static void main(String[] args) {
