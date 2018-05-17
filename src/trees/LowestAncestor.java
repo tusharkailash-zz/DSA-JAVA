@@ -33,6 +33,7 @@ public class LowestAncestor {
 
 	}
 
+	
 	public static void main(String[] args) {
 
 		TreeNode root = new TreeNode(6);
@@ -48,6 +49,7 @@ public class LowestAncestor {
 		LowestAncestor l = new LowestAncestor();
 		TreeNode ans = l.findLowestAncestor(root, 0, 5);
 		System.out.println(ans.val);
+		
 
 	}
 
